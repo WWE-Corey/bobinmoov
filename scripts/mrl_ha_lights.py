@@ -11,7 +11,7 @@ import urllib2
 #define url and Bearer token
 token = 'Bearer "your_token"'
 turn_on = 'http://{your_ip}:8123/api/services/light/turn_on'
-turn_on = 'http://{your_ip}:8123/api/services/light/turn_off'
+turn_off = 'http://{your_ip}:8123/api/services/light/turn_off'
 toggle = 'http://{your_ip}:8123/api/services/light/toggle'
 
 
